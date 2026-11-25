@@ -178,6 +178,24 @@ python manage.py test
 
 The project includes automated tests for authentication, patient operations, doctor operations, and patient-doctor mappings.
 
+## Postman Collection
+
+The Postman collection containing the API requests is included in the project root.
+
+File: `Django – Healthcare Backend API.postman_collection.json`
+
+Import the collection into Postman to test all API endpoints.
+
+### Collection Variables
+
+- `base_url`: http://127.0.0.1:8000
+- `access_token`: JWT access token obtained after login
+- `patient_id`: Patient UUID
+- `doctor_id`: Doctor UUID
+- `mapping_id`: Patient-doctor mapping UUID
+
 ## License
 
 Created as part of a Django healthcare backend technical assessment.
+
+
